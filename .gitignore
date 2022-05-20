@@ -6,3 +6,4 @@ android/plugin_OneSignal.c
 android/libs/armeabi-v7a/libplugin.OneSignal.so
 ios/lib/**
 corona_build.log
+.gradle/

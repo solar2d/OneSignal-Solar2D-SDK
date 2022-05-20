@@ -1,1 +1,6 @@
-include ':plugin'
+rootProject.name = "OneSignal Solar2D"
+include("app", "plugin")
+
+if (settings.hasProperty('coronaExpansionFileName')) {
+	include("preloadedAssets")
+}
